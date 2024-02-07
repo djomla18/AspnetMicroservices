@@ -1,0 +1,6 @@
+@Baskt.API_HostAddress = http://localhost:5072
+
+GET {{Baskt.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
