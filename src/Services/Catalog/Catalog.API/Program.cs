@@ -16,6 +16,7 @@ builder.Services.AddSwaggerGen(c =>
         Version = "v1"
     });
 });
+
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<ICatalogContext,  CatalogContext>();
 
